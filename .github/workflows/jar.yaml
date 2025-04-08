@@ -2,9 +2,9 @@ name: Build 1.12.2 Mod
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "0.3.2-beta" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "0.3.2-beta" ]
 
 jobs:
   build:
