@@ -1,11 +1,6 @@
 name: Build 1.12.2 Mod
 
-on:
-  push:
-    branches: [ "0.3.2-beta" ]
-    tags: [ "0.3.2" ]
-  pull_request:
-    branches: [ "0.3.2-beta" ]
+on: [workflow_dispatch]
 
 jobs:
   build:
